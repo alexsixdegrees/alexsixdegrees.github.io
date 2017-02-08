@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+    
+  <url>
+    <loc>https://alexsixdegrees.github.io/2017/02/05/hexo-github-blog/</loc>
+    <lastmod>2017-02-08T09:34:45.674Z</lastmod>
+    <data>
+        <display>
+        <title>Using Hexo & Github to Create Your Own Blog</title>
+        <pubTime>2017-02-05T14:59:45.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>github</tag>
+         
+        <tag>blog</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+  <url>
+    <loc>https://alexsixdegrees.github.io/2017/02/05/hello-world/</loc>
+    <lastmod>2017-02-05T14:17:31.717Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2017-02-05T14:17:31.717Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
