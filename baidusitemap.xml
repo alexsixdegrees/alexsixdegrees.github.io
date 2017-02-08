@@ -5,15 +5,34 @@
     
   <url>
     <loc>https://alexsixdegrees.github.io/2017/02/05/hexo-github-blog/</loc>
-    <lastmod>2017-02-08T09:34:45.674Z</lastmod>
+    <lastmod>2017-02-08T14:13:28.263Z</lastmod>
     <data>
         <display>
         <title>Using Hexo & Github to Create Your Own Blog</title>
         <pubTime>2017-02-05T14:59:45.000Z</pubTime>
         
+        <tag>blog</tag>
+         
         <tag>hexo</tag>
          
         <tag>github</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://alexsixdegrees.github.io/2017/02/08/Markdown-Tutorial/</loc>
+    <lastmod>2017-02-08T14:11:41.116Z</lastmod>
+    <data>
+        <display>
+        <title>Markdown Tutorial</title>
+        <pubTime>2017-02-08T11:41:30.000Z</pubTime>
+        
+        <tag>markdown</tag>
          
         <tag>blog</tag>
          
