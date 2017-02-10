@@ -4,16 +4,33 @@
 
     
   <url>
-    <loc>https://alexsixdegrees.github.io/2017/02/05/hexo-github-blog/</loc>
-    <lastmod>2017-02-09T06:50:03.726Z</lastmod>
+    <loc>https://alexsixdegrees.github.io/2017/02/09/cardistry-form/</loc>
+    <lastmod>2017-02-10T04:04:26.057Z</lastmod>
     <data>
         <display>
-        <title>Using Hexo & Github to Create Your Own Blog</title>
-        <pubTime>2017-02-05T14:59:45.000Z</pubTime>
+        <title>Formalist Approach to Cardistry</title>
+        <pubTime>2017-02-09T14:33:13.000Z</pubTime>
         
-        <tag>hexo</tag>
+        <tag>art</tag>
          
-        <tag>github</tag>
+        <tag>cardistary</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://alexsixdegrees.github.io/2017/02/08/Markdown-Tutorial/</loc>
+    <lastmod>2017-02-10T04:04:19.365Z</lastmod>
+    <data>
+        <display>
+        <title>Markdown Tutorial</title>
+        <pubTime>2017-02-08T11:41:30.000Z</pubTime>
+        
+        <tag>markdown</tag>
          
         <tag>blog</tag>
          
@@ -25,16 +42,18 @@
 
     
   <url>
-    <loc>https://alexsixdegrees.github.io/2017/02/08/Markdown-Tutorial/</loc>
-    <lastmod>2017-02-08T14:11:41.116Z</lastmod>
+    <loc>https://alexsixdegrees.github.io/2017/02/05/hexo-github-blog/</loc>
+    <lastmod>2017-02-09T11:00:46.660Z</lastmod>
     <data>
         <display>
-        <title>Markdown Tutorial</title>
-        <pubTime>2017-02-08T11:41:30.000Z</pubTime>
+        <title>Using Hexo & Github to Create Your Own Blog</title>
+        <pubTime>2017-02-05T14:59:45.000Z</pubTime>
         
         <tag>blog</tag>
          
-        <tag>markdown</tag>
+        <tag>hexo</tag>
+         
+        <tag>github</tag>
          
          
            
