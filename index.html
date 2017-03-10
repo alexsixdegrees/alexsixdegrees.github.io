@@ -241,6 +241,133 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Jialin Wu">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="A Flow of Thoughts">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="A Flow of Thoughts" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/02/15/markdown-packagecontrol/" itemprop="url">
+                  Installing Package Control for Sublime Text 3
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-15T09:06:55+08:00">
+                2017-02-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <hr>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>Package Control is a great tool to automatically install plugins for sublime text 3. </p>
+<h2 id="Install-Package-Control"><a href="#Install-Package-Control" class="headerlink" title="Install Package Control"></a>Install Package Control</h2><p>Open Sublime Text Three.<br>Find View in the top menu and choose “show console”.<br>You would see the console at the bottom. </p>
+<p>Then copy the following code into the console.</p>
+<p>Sublime Text Three:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> urllib.request,os; pf = <span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path();</div><div class="line">urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); </div><div class="line">open(os.path.join(ipp, pf), <span class="string">'wb'</span>).write(urllib.request.urlopen( <span class="string">'http://sublime.wbond.net/'</span> + pf.replace(<span class="string">' '</span>,<span class="string">'%20'</span>)).read())</div></pre></td></tr></table></figure>
+<p>Sublime Text Two:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> urllib2,os; pf=<span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path(); </div><div class="line">os.makedirs( ipp ) <span class="keyword">if</span> not os.path.exists(ipp) <span class="keyword">else</span> None;urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler( ))); </div><div class="line">open( os.path.join( ipp, pf), <span class="string">'wb'</span> ).write( urllib2.urlopen( <span class="string">'http://sublime.wbond.net/'</span> +pf.replace( <span class="string">' '</span>,<span class="string">'%20'</span> )).read()); print( <span class="string">'Please restart Sublime Text to finish installation'</span>)</div></pre></td></tr></table></figure>
+<h2 id="Install-Plugins"><a href="#Install-Plugins" class="headerlink" title="Install Plugins"></a>Install Plugins</h2><h2 id="More-Plugins"><a href="#More-Plugins" class="headerlink" title="More Plugins"></a>More Plugins</h2><p>Here are more useful plugins built for sublime text three. It’s easy to use pacage control to install and keep track of them. There would be a series of tutorials introducing plugins that I use from time to time. </p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
   <link itemprop="mainEntityOfPage" href="https://alexsixdegrees.github.io/2017/02/11/letaxinmarkdown/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -779,7 +906,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
