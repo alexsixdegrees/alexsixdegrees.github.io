@@ -4,14 +4,14 @@
 
     
   <url>
-    <loc>https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/</loc>
-    <lastmod>2017-04-02T10:04:05.342Z</lastmod>
+    <loc>https://alexsixdegrees.github.io/2017/03/23/ow/</loc>
+    <lastmod>2017-06-19T00:09:12.181Z</lastmod>
     <data>
         <display>
-        <title>Install Package Control for Sublime Text 3</title>
-        <pubTime>2017-02-15T01:06:55.000Z</pubTime>
+        <title>Machine Learning Learning Path</title>
+        <pubTime>2017-03-23T06:24:51.000Z</pubTime>
         
-        <tag>sublimetext</tag>
+        <tag>machine learning</tag>
          
          
            
@@ -21,14 +21,14 @@
 
     
   <url>
-    <loc>https://alexsixdegrees.github.io/2017/03/23/ow/</loc>
-    <lastmod>2017-03-23T06:49:31.215Z</lastmod>
+    <loc>https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/</loc>
+    <lastmod>2017-04-02T10:07:28.840Z</lastmod>
     <data>
         <display>
-        <title>Machine Learning Lecture Note(1) - Brief Introduction</title>
-        <pubTime>2017-03-23T06:24:51.000Z</pubTime>
+        <title>Install Package Control for Sublime Text 3</title>
+        <pubTime>2017-02-15T01:06:55.000Z</pubTime>
         
-        <tag>machine learning</tag>
+        <tag>sublimetext</tag>
          
          
            
@@ -46,9 +46,9 @@
         <title>Markdown Tutorial</title>
         <pubTime>2017-02-08T11:41:30.000Z</pubTime>
         
-        <tag>markdown</tag>
-         
         <tag>blog</tag>
+         
+        <tag>markdown</tag>
          
          
            
@@ -103,11 +103,11 @@
         <title>Using Hexo & Github to Create Your Own Blog</title>
         <pubTime>2017-02-05T14:59:45.000Z</pubTime>
         
-        <tag>blog</tag>
-         
         <tag>hexo</tag>
          
         <tag>github</tag>
+         
+        <tag>blog</tag>
          
          
            
