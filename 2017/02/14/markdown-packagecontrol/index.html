@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="markdown,sublimetext," />
+  <meta name="keywords" content="sublimetext," />
 
 
 
@@ -84,16 +84,23 @@
 
 
 
-<meta name="description" content="IntroductionA problem emerge during blogging: I need to display some math formulas to illustrate, but I cannot find a proper way to display them.As a result, I turned to a plugin called OmniMarkupPre">
+<meta name="description" content="IntroductionPackage Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and addtionally some useful plugins. 
+Install">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Using MathJax within Hexo">
-<meta property="og:url" content="https://alexsixdegrees.github.io/2017/02/11/letaxinmarkdown/index.html">
+<meta property="og:title" content="Install Package Control for Sublime Text 3">
+<meta property="og:url" content="https://alexsixdegrees.github.io/2017/02/14/markdown-packagecontrol/index.html">
 <meta property="og:site_name" content="A Flow of Thoughts">
-<meta property="og:description" content="IntroductionA problem emerge during blogging: I need to display some math formulas to illustrate, but I cannot find a proper way to display them.As a result, I turned to a plugin called OmniMarkupPre">
-<meta property="og:updated_time" content="2017-02-13T09:03:56.208Z">
+<meta property="og:description" content="IntroductionPackage Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and addtionally some useful plugins. 
+Install">
+<meta property="og:image" content="http://p1.bqimg.com/567571/74a62daa2e848b28.png">
+<meta property="og:image" content="http://p1.bqimg.com/567571/fb4ac478aa628e70.png">
+<meta property="og:image" content="http://p1.bqimg.com/567571/e6c78d65641e3cbc.png">
+<meta property="og:updated_time" content="2017-04-02T10:07:28.840Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Using MathJax within Hexo">
-<meta name="twitter:description" content="IntroductionA problem emerge during blogging: I need to display some math formulas to illustrate, but I cannot find a proper way to display them.As a result, I turned to a plugin called OmniMarkupPre">
+<meta name="twitter:title" content="Install Package Control for Sublime Text 3">
+<meta name="twitter:description" content="IntroductionPackage Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and addtionally some useful plugins. 
+Install">
+<meta name="twitter:image" content="http://p1.bqimg.com/567571/74a62daa2e848b28.png">
 
 
 
@@ -121,13 +128,13 @@
 
 
 
-  <link rel="canonical" href="https://alexsixdegrees.github.io/2017/02/11/letaxinmarkdown/"/>
+  <link rel="canonical" href="https://alexsixdegrees.github.io/2017/02/14/markdown-packagecontrol/"/>
 
 
 
 
 
-  <title> Using MathJax within Hexo | A Flow of Thoughts </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title> Install Package Control for Sublime Text 3 | A Flow of Thoughts </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -240,7 +247,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="https://alexsixdegrees.github.io/2017/02/11/letaxinmarkdown/">
+  <link itemprop="mainEntityOfPage" href="https://alexsixdegrees.github.io/2017/02/14/markdown-packagecontrol/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="Jialin Wu">
@@ -264,7 +271,7 @@
             
             
               
-                Using MathJax within Hexo
+                Install Package Control for Sublime Text 3
               
             
           </h1>
@@ -279,8 +286,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-11T05:00:45-05:00">
-                2017-02-11
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-15T09:06:55+08:00">
+                2017-02-15
               </time>
             
 
@@ -316,40 +323,15 @@
 
       
         <hr>
-<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>A problem emerge during blogging: I need to display some math formulas to illustrate, but I cannot find a proper way to display them.<br>As a result, I turned to a plugin called OmniMarkupPreviewer for Sublime Text 3. It is used to preview the markdown file. Additionally, by changing some default settings, it can be used to support MathJax, a popular tool to display formulas on webpages.<br><a id="more"></a></p>
-<h2 id="MathJax-Overview"><a href="#MathJax-Overview" class="headerlink" title="MathJax Overview"></a>MathJax Overview</h2><blockquote>
-<p>MathJax allows you to include mathematics in your web pages, either using LaTeX, MathML, or AsciiMath notation, and the mathematics will be processed using JavaScript to produce HTML, SVG or MathML equations for viewing in any modern browser.</p>
-<p><cite><a href="http://docs.mathjax.org/en/latest/start.html" target="_blank" rel="external">MathJax.org</a></cite></p>
-</blockquote>
-<h2 id="Installing-OmniMarkuppreviewer"><a href="#Installing-OmniMarkuppreviewer" class="headerlink" title="Installing OmniMarkuppreviewer"></a>Installing OmniMarkuppreviewer</h2><p>It’s easy by using Package Control to install:<br>Press down crtl + shift + p and type in install to open install package.<br>Type Omnimarkuppreviewer. You would see it and you can download it. </p>
-<h2 id="Changing-Default-Settings"><a href="#Changing-Default-Settings" class="headerlink" title="Changing Default Settings"></a>Changing Default Settings</h2><p>After Installing it:</p>
-<ol>
-<li>Open sublimetext 3</li>
-<li>Open Preferences</li>
-<li>Open Package Setting</li>
-<li>Open OmniMarkuppreviewer</li>
-<li>Open Settings - Default</li>
-<li>Find mathjax_enabled</li>
-<li>change false to true.</li>
-</ol>
-<p>Afterwards, Mathjax would be automatically installed. </p>
-<h2 id="Install-Mathjax-on-Hexo"><a href="#Install-Mathjax-on-Hexo" class="headerlink" title="Install Mathjax on Hexo"></a>Install Mathjax on Hexo</h2><p>Until now, we have only installed Mathjax locally, but we need to include it in our blog as well.<br>We can turn to a plugin called <a href="https://github.com/akfish/hexo-math" target="_blank" rel="external">hexo-math</a>.<br>This is a wonderful plugin that allows usage of Mathjax in Hexo. Unfortunately, the plugin is no longer sustained. However, for now we can still use it, since changing the default setting is troublesome. </p>
-<p>Open git shell and type to install:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-math --save</div><div class="line">$ hexo math install</div></pre></td></tr></table></figure></p>
-<p>However, there is some conflict between the Syntax of Markdown and Mathjax. Some of the characters may be escaped. Still, we need to change the default settings…</p>
-<h2 id="Changing-Default-Settings-1"><a href="#Changing-Default-Settings-1" class="headerlink" title="Changing Default Settings"></a>Changing Default Settings</h2><p>I found <a href="http://blog.csdn.net/emptyset110/article/details/50123231" target="_blank" rel="external">Platonic Time</a> had already contributed how to change the default settings.</p>
-<p>Here it goes:<br>Open the Hexo File.<br>Go to ./node_modules/marked/lib/<br>Using a text editor to open marked.js</p>
-<p>You may want to use crtl + f to find the following changes:</p>
-<h3 id="Step-One"><a href="#Step-One" class="headerlink" title="Step One:"></a>Step One:</h3><p>Change:<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">escape</span>: <span class="regexp">/^\\([\\`*&#123;&#125;\[\]()# +\-.!_&gt;])/</span>,</div></pre></td></tr></table></figure></p>
-<p>to<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">escape</span>: <span class="regexp">/^\\([`*\[\]()# +\-.!_&gt;])/</span>,</div></pre></td></tr></table></figure></p>
-<p>This step enabled<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">\\,\&#123;,\&#125;</div></pre></td></tr></table></figure></p>
-<p>to escape. </p>
-<h3 id="Step-Two"><a href="#Step-Two" class="headerlink" title="Step Two"></a>Step Two</h3><p>Change:<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">em: <span class="regexp">/^\b_((?:[^_]|__)+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/</span>,</div></pre></td></tr></table></figure></p>
-<p>to<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">em:<span class="regexp">/^\*((?:\*\*|[\s\S])+?)\*(?!\*)/</span>,</div></pre></td></tr></table></figure></p>
-<p>These enable the consistency of Marked.js and Mathjax.</p>
-<p>Restart Hexo.</p>
-<h2 id="Using-Mathjax-within-Markdown"><a href="#Using-Mathjax-within-Markdown" class="headerlink" title="Using Mathjax within Markdown"></a>Using Mathjax within Markdown</h2><p>There you have it.<br>Have a Try:</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">$$</div><div class="line">\begin&#123;eqnarray&#125;</div><div class="line">\nabla\cdot\vec&#123;E&#125; &amp;=&amp; \frac&#123;\rho&#125;&#123;\epsilon_0&#125; \\</div><div class="line">\nabla\cdot\vec&#123;B&#125; &amp;=&amp; 0 \\</div><div class="line">\nabla\times\vec&#123;E&#125; &amp;=&amp; -\frac&#123;\partial B&#125;&#123;\partial t&#125; \\</div><div class="line">\nabla\times\vec&#123;B&#125; &amp;=&amp; \mu<span class="emphasis">_0\left(\vec&#123;J&#125;+\epsilon_</span>0\frac&#123;\partial E&#125;&#123;\partial t&#125; \right)</div><div class="line">\end&#123;eqnarray&#125;</div><div class="line">$$</div></pre></td></tr></table></figure>
-<p>$$<br>\begin{eqnarray}<br>\nabla\cdot\vec{E} &amp;=&amp; \frac{\rho}{\epsilon_0} \\<br>\nabla\cdot\vec{B} &amp;=&amp; 0 \\<br>\nabla\times\vec{E} &amp;=&amp; -\frac{\partial B}{\partial t} \\<br>\nabla\times\vec{B} &amp;=&amp; \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)<br>\end{eqnarray}<br>$$</p>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>Package Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and addtionally some useful plugins. </p>
+<h2 id="Install-Package-Control"><a href="#Install-Package-Control" class="headerlink" title="Install Package Control"></a>Install Package Control</h2><p>Open Sublime Text Three.<br>Find View in the top menu and choose “show console”.<br><a id="more"></a><br><img src="http://p1.bqimg.com/567571/74a62daa2e848b28.png" alt=""></p>
+<p>You would see the console at the bottom. </p>
+<p>Then copy the following code into the console.</p>
+<p>Sublime Text Three:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> urllib.request,os; pf = <span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path();</div><div class="line">urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); </div><div class="line">open(os.path.join(ipp, pf), <span class="string">'wb'</span>).write(urllib.request.urlopen( <span class="string">'http://sublime.wbond.net/'</span> + pf.replace(<span class="string">' '</span>,<span class="string">'%20'</span>)).read())</div></pre></td></tr></table></figure>
+<p>Sublime Text Two:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> urllib2,os; pf=<span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path(); </div><div class="line">os.makedirs( ipp ) <span class="keyword">if</span> not os.path.exists(ipp) <span class="keyword">else</span> None;urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler( ))); </div><div class="line">open( os.path.join( ipp, pf), <span class="string">'wb'</span> ).write( urllib2.urlopen( <span class="string">'http://sublime.wbond.net/'</span> +pf.replace( <span class="string">' '</span>,<span class="string">'%20'</span> )).read()); print( <span class="string">'Please restart Sublime Text to finish installation'</span>)</div></pre></td></tr></table></figure>
+<h2 id="Install-Plugins"><a href="#Install-Plugins" class="headerlink" title="Install Plugins"></a>Install Plugins</h2><p>To install plugins, firstly open the package control from the “Preferences” menu.<br><img src="http://p1.bqimg.com/567571/fb4ac478aa628e70.png" alt=""><br>Then type in “install”.<br>Wait a moment and you would find:<br><img src="http://p1.bqimg.com/567571/e6c78d65641e3cbc.png" alt=""><br>Type the code of your plugin and it would be automatically installed. </p>
 
       
     </div>
@@ -373,8 +355,6 @@
       
         <div class="post-tags">
           
-            <a href="/tags/markdown/" rel="tag"># markdown</a>
-          
             <a href="/tags/sublimetext/" rel="tag"># sublimetext</a>
           
         </div>
@@ -384,8 +364,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/02/09/cardistry-form/" rel="next" title="Formalist Approach to Cardistry">
-                <i class="fa fa-chevron-left"></i> Formalist Approach to Cardistry
+              <a href="/2017/02/11/letaxinmarkdown/" rel="next" title="Using MathJax within Hexo">
+                <i class="fa fa-chevron-left"></i> Using MathJax within Hexo
               </a>
             
           </div>
@@ -394,8 +374,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/02/14/markdown-packagecontrol/" rel="prev" title="Install Package Control for Sublime Text 3">
-                Install Package Control for Sublime Text 3 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/03/23/ow/" rel="prev" title="Machine Learning Learning Path">
+                Machine Learning Learning Path <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -512,7 +492,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#MathJax-Overview"><span class="nav-number">2.</span> <span class="nav-text">MathJax Overview</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Installing-OmniMarkuppreviewer"><span class="nav-number">3.</span> <span class="nav-text">Installing OmniMarkuppreviewer</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Changing-Default-Settings"><span class="nav-number">4.</span> <span class="nav-text">Changing Default Settings</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Mathjax-on-Hexo"><span class="nav-number">5.</span> <span class="nav-text">Install Mathjax on Hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Changing-Default-Settings-1"><span class="nav-number">6.</span> <span class="nav-text">Changing Default Settings</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Step-One"><span class="nav-number">6.1.</span> <span class="nav-text">Step One:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Step-Two"><span class="nav-number">6.2.</span> <span class="nav-text">Step Two</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Using-Mathjax-within-Markdown"><span class="nav-number">7.</span> <span class="nav-text">Using Mathjax within Markdown</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Package-Control"><span class="nav-number">2.</span> <span class="nav-text">Install Package Control</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Plugins"><span class="nav-number">3.</span> <span class="nav-text">Install Plugins</span></a></li></ol></div>
             
 
           </div>
