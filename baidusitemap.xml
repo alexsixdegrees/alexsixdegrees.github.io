@@ -4,8 +4,27 @@
 
     
   <url>
+    <loc>https://alexsixdegrees.github.io/2017/02/11/letaxinmarkdown/</loc>
+    <lastmod>2017-07-19T14:36:35.143Z</lastmod>
+    <data>
+        <display>
+        <title>Using MathJax within Hexo</title>
+        <pubTime>2017-02-11T10:00:45.000Z</pubTime>
+        
+        <tag>markdown</tag>
+         
+        <tag>sublimetext</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://alexsixdegrees.github.io/2017/03/23/ow/</loc>
-    <lastmod>2017-06-19T02:08:34.533Z</lastmod>
+    <lastmod>2017-07-03T18:05:31.464Z</lastmod>
     <data>
         <display>
         <title>Machine Learning Learning Path</title>
@@ -21,7 +40,7 @@
 
     
   <url>
-    <loc>https://alexsixdegrees.github.io/2017/02/14/markdown-packagecontrol/</loc>
+    <loc>https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/</loc>
     <lastmod>2017-04-02T10:07:28.840Z</lastmod>
     <data>
         <display>
@@ -49,25 +68,6 @@
         <tag>markdown</tag>
          
         <tag>blog</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://alexsixdegrees.github.io/2017/02/11/letaxinmarkdown/</loc>
-    <lastmod>2017-02-13T09:03:56.208Z</lastmod>
-    <data>
-        <display>
-        <title>Using MathJax within Hexo</title>
-        <pubTime>2017-02-11T10:00:45.000Z</pubTime>
-        
-        <tag>markdown</tag>
-         
-        <tag>sublimetext</tag>
          
          
            
