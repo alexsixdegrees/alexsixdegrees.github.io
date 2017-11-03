@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="sublimetext," />
+  <meta name="keywords" content="art,cardistary," />
 
 
 
@@ -84,23 +84,16 @@
 
 
 
-<meta name="description" content="IntroductionPackage Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and addtionally some useful plugins. 
-Install">
+<meta name="description" content="IntroductionI pick up cardistry in 2014, and since then, practise it on and off. During these years, cardistry as a form of art developed in an exceedingly rapid pace. Thousands of new cardists emerg">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Install Package Control for Sublime Text 3">
-<meta property="og:url" content="https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/index.html">
+<meta property="og:title" content="Formalist Approach to Cardistry">
+<meta property="og:url" content="https://alexsixdegrees.github.io/2016/12/09/cardistry-form/index.html">
 <meta property="og:site_name" content="A Flow of Thoughts">
-<meta property="og:description" content="IntroductionPackage Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and addtionally some useful plugins. 
-Install">
-<meta property="og:image" content="http://p1.bqimg.com/567571/74a62daa2e848b28.png">
-<meta property="og:image" content="http://p1.bqimg.com/567571/fb4ac478aa628e70.png">
-<meta property="og:image" content="http://p1.bqimg.com/567571/e6c78d65641e3cbc.png">
-<meta property="og:updated_time" content="2017-04-02T10:07:28.840Z">
+<meta property="og:description" content="IntroductionI pick up cardistry in 2014, and since then, practise it on and off. During these years, cardistry as a form of art developed in an exceedingly rapid pace. Thousands of new cardists emerg">
+<meta property="og:updated_time" content="2017-11-03T12:17:35.939Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Install Package Control for Sublime Text 3">
-<meta name="twitter:description" content="IntroductionPackage Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and addtionally some useful plugins. 
-Install">
-<meta name="twitter:image" content="http://p1.bqimg.com/567571/74a62daa2e848b28.png">
+<meta name="twitter:title" content="Formalist Approach to Cardistry">
+<meta name="twitter:description" content="IntroductionI pick up cardistry in 2014, and since then, practise it on and off. During these years, cardistry as a form of art developed in an exceedingly rapid pace. Thousands of new cardists emerg">
 
 
 
@@ -128,13 +121,13 @@ Install">
 
 
 
-  <link rel="canonical" href="https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/"/>
+  <link rel="canonical" href="https://alexsixdegrees.github.io/2016/12/09/cardistry-form/"/>
 
 
 
 
 
-  <title> Install Package Control for Sublime Text 3 | A Flow of Thoughts </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title> Formalist Approach to Cardistry | A Flow of Thoughts </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -247,7 +240,7 @@ Install">
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/">
+  <link itemprop="mainEntityOfPage" href="https://alexsixdegrees.github.io/2016/12/09/cardistry-form/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="Jialin Wu">
@@ -271,7 +264,7 @@ Install">
             
             
               
-                Install Package Control for Sublime Text 3
+                Formalist Approach to Cardistry
               
             
           </h1>
@@ -286,8 +279,8 @@ Install">
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-15T09:06:55+08:00">
-                2017-02-15
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-09T22:33:13+08:00">
+                2016-12-09
               </time>
             
 
@@ -323,16 +316,15 @@ Install">
 
       
         <hr>
-<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>Package Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and addtionally some useful plugins. </p>
-<h2 id="Install-Package-Control"><a href="#Install-Package-Control" class="headerlink" title="Install Package Control"></a>Install Package Control</h2><p>Open Sublime Text Three.<br>Find View in the top menu and choose “show console”.<br><a id="more"></a><br><img src="http://p1.bqimg.com/567571/74a62daa2e848b28.png" alt=""></p>
-<p>You would see the console at the bottom. </p>
-<p>Then copy the following code into the console.</p>
-<p>Sublime Text Three:</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> urllib.request,os; pf = <span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path();</div><div class="line">urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); </div><div class="line">open(os.path.join(ipp, pf), <span class="string">'wb'</span>).write(urllib.request.urlopen( <span class="string">'http://sublime.wbond.net/'</span> + pf.replace(<span class="string">' '</span>,<span class="string">'%20'</span>)).read())</div></pre></td></tr></table></figure>
-<p>Sublime Text Two:</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> urllib2,os; pf=<span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path(); </div><div class="line">os.makedirs( ipp ) <span class="keyword">if</span> not os.path.exists(ipp) <span class="keyword">else</span> None;urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler( ))); </div><div class="line">open( os.path.join( ipp, pf), <span class="string">'wb'</span> ).write( urllib2.urlopen( <span class="string">'http://sublime.wbond.net/'</span> +pf.replace( <span class="string">' '</span>,<span class="string">'%20'</span> )).read()); print( <span class="string">'Please restart Sublime Text to finish installation'</span>)</div></pre></td></tr></table></figure>
-<h2 id="Install-Plugins"><a href="#Install-Plugins" class="headerlink" title="Install Plugins"></a>Install Plugins</h2><p>To install plugins, firstly open the package control from the “Preferences” menu.<br><img src="http://p1.bqimg.com/567571/fb4ac478aa628e70.png" alt=""><br>Then type in “install”.<br>Wait a moment and you would find:<br><img src="http://p1.bqimg.com/567571/e6c78d65641e3cbc.png" alt=""><br>Type the code of your plugin and it would be automatically installed. </p>
-
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>I pick up cardistry in 2014, and since then, practise it on and off. During these years, cardistry as a form of art developed in an exceedingly rapid pace. Thousands of new cardists emerge all around the globe and join this big community; they are passionate and willing to contribute. More and more videos and tutorials are shared online to teach each other how to learn and develop new moves. These are all satisfying.<br>However, to my surprise, cardists rarely create theory to illustrate why some moves are better than the others. Actually, we do not have a theory at all. If we want to elaborate cardistry, we need to transform it from an artistry to an art; we need to make connections between moves and thoughts.<br>A theory is yet to be developed. </p>
+<a id="more"></a>
+<h2 id="Cardistry"><a href="#Cardistry" class="headerlink" title="Cardistry"></a>Cardistry</h2><blockquote>
+<p>Cardistry is a name given to the performance art of card flourishing. The term is a portmanteau of “card” and “artistry”. Unlike card magic, cardistry is meant to be visually impressive and appear very hard to execute. People who engage in cardistry are nicknamed “cardists”.</p>
+<p><cite>Wikipedia</cite></p>
+<p>Cardistry is an arcane but growing performance art in which its practitioners, called cardists, share their best moves with an inclusive group of skilled and dedicated youths. They use decks of cards to compose acrobatic arrangements and sequences as a form of self-expression.</p>
+<p><cite><a href="https://www.behance.net/gallery/35235461/Cardistry" target="_blank" rel="external">Gaia Baravallle</a></cite></p>
+</blockquote>
+<h2 id="Formalism"><a href="#Formalism" class="headerlink" title="Formalism"></a>Formalism</h2><h2 id="Formalist-Approach-to-Cardistry"><a href="#Formalist-Approach-to-Cardistry" class="headerlink" title="Formalist Approach to Cardistry"></a>Formalist Approach to Cardistry</h2>
       
     </div>
 
@@ -355,7 +347,9 @@ Install">
       
         <div class="post-tags">
           
-            <a href="/tags/sublimetext/" rel="tag"># sublimetext</a>
+            <a href="/tags/art/" rel="tag"># art</a>
+          
+            <a href="/tags/cardistary/" rel="tag"># cardistary</a>
           
         </div>
       
@@ -364,8 +358,8 @@ Install">
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/12/09/cardistry-form/" rel="next" title="Formalist Approach to Cardistry">
-                <i class="fa fa-chevron-left"></i> Formalist Approach to Cardistry
+              <a href="/2016/10/05/hexo-github-blog/" rel="next" title="Using Hexo & Github to Create Your Own Blog">
+                <i class="fa fa-chevron-left"></i> Using Hexo & Github to Create Your Own Blog
               </a>
             
           </div>
@@ -374,8 +368,8 @@ Install">
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/03/11/letaxinmarkdown/" rel="prev" title="Using MathJax within Hexo">
-                Using MathJax within Hexo <i class="fa fa-chevron-right"></i>
+              <a href="/2017/02/15/markdown-packagecontrol/" rel="prev" title="Install Package Control for Sublime Text 3">
+                Install Package Control for Sublime Text 3 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -492,7 +486,7 @@ Install">
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Package-Control"><span class="nav-number">2.</span> <span class="nav-text">Install Package Control</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Plugins"><span class="nav-number">3.</span> <span class="nav-text">Install Plugins</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Cardistry"><span class="nav-number">2.</span> <span class="nav-text">Cardistry</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Formalism"><span class="nav-number">3.</span> <span class="nav-text">Formalism</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Formalist-Approach-to-Cardistry"><span class="nav-number">4.</span> <span class="nav-text">Formalist Approach to Cardistry</span></a></li></ol></div>
             
 
           </div>

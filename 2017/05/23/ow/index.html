@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="sublimetext," />
+  <meta name="keywords" content="machine learning," />
 
 
 
@@ -84,23 +84,16 @@
 
 
 
-<meta name="description" content="IntroductionPackage Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and addtionally some useful plugins. 
-Install">
+<meta name="description" content="Preface…I started learning machine learning during my second year in high school. This records my learning path of the technique. I started with gaining some basic understanding of machine learning.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Install Package Control for Sublime Text 3">
-<meta property="og:url" content="https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/index.html">
+<meta property="og:title" content="Machine Learning Learning Path">
+<meta property="og:url" content="https://alexsixdegrees.github.io/2017/05/23/ow/index.html">
 <meta property="og:site_name" content="A Flow of Thoughts">
-<meta property="og:description" content="IntroductionPackage Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and addtionally some useful plugins. 
-Install">
-<meta property="og:image" content="http://p1.bqimg.com/567571/74a62daa2e848b28.png">
-<meta property="og:image" content="http://p1.bqimg.com/567571/fb4ac478aa628e70.png">
-<meta property="og:image" content="http://p1.bqimg.com/567571/e6c78d65641e3cbc.png">
-<meta property="og:updated_time" content="2017-04-02T10:07:28.840Z">
+<meta property="og:description" content="Preface…I started learning machine learning during my second year in high school. This records my learning path of the technique. I started with gaining some basic understanding of machine learning.">
+<meta property="og:updated_time" content="2017-11-03T12:17:55.880Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Install Package Control for Sublime Text 3">
-<meta name="twitter:description" content="IntroductionPackage Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and addtionally some useful plugins. 
-Install">
-<meta name="twitter:image" content="http://p1.bqimg.com/567571/74a62daa2e848b28.png">
+<meta name="twitter:title" content="Machine Learning Learning Path">
+<meta name="twitter:description" content="Preface…I started learning machine learning during my second year in high school. This records my learning path of the technique. I started with gaining some basic understanding of machine learning.">
 
 
 
@@ -128,13 +121,13 @@ Install">
 
 
 
-  <link rel="canonical" href="https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/"/>
+  <link rel="canonical" href="https://alexsixdegrees.github.io/2017/05/23/ow/"/>
 
 
 
 
 
-  <title> Install Package Control for Sublime Text 3 | A Flow of Thoughts </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title> Machine Learning Learning Path | A Flow of Thoughts </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -247,7 +240,7 @@ Install">
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/">
+  <link itemprop="mainEntityOfPage" href="https://alexsixdegrees.github.io/2017/05/23/ow/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="Jialin Wu">
@@ -271,7 +264,7 @@ Install">
             
             
               
-                Install Package Control for Sublime Text 3
+                Machine Learning Learning Path
               
             
           </h1>
@@ -286,8 +279,8 @@ Install">
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-15T09:06:55+08:00">
-                2017-02-15
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-05-23T14:24:51+08:00">
+                2017-05-23
               </time>
             
 
@@ -323,15 +316,49 @@ Install">
 
       
         <hr>
-<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>Package Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and addtionally some useful plugins. </p>
-<h2 id="Install-Package-Control"><a href="#Install-Package-Control" class="headerlink" title="Install Package Control"></a>Install Package Control</h2><p>Open Sublime Text Three.<br>Find View in the top menu and choose “show console”.<br><a id="more"></a><br><img src="http://p1.bqimg.com/567571/74a62daa2e848b28.png" alt=""></p>
-<p>You would see the console at the bottom. </p>
-<p>Then copy the following code into the console.</p>
-<p>Sublime Text Three:</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> urllib.request,os; pf = <span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path();</div><div class="line">urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); </div><div class="line">open(os.path.join(ipp, pf), <span class="string">'wb'</span>).write(urllib.request.urlopen( <span class="string">'http://sublime.wbond.net/'</span> + pf.replace(<span class="string">' '</span>,<span class="string">'%20'</span>)).read())</div></pre></td></tr></table></figure>
-<p>Sublime Text Two:</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> urllib2,os; pf=<span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path(); </div><div class="line">os.makedirs( ipp ) <span class="keyword">if</span> not os.path.exists(ipp) <span class="keyword">else</span> None;urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler( ))); </div><div class="line">open( os.path.join( ipp, pf), <span class="string">'wb'</span> ).write( urllib2.urlopen( <span class="string">'http://sublime.wbond.net/'</span> +pf.replace( <span class="string">' '</span>,<span class="string">'%20'</span> )).read()); print( <span class="string">'Please restart Sublime Text to finish installation'</span>)</div></pre></td></tr></table></figure>
-<h2 id="Install-Plugins"><a href="#Install-Plugins" class="headerlink" title="Install Plugins"></a>Install Plugins</h2><p>To install plugins, firstly open the package control from the “Preferences” menu.<br><img src="http://p1.bqimg.com/567571/fb4ac478aa628e70.png" alt=""><br>Then type in “install”.<br>Wait a moment and you would find:<br><img src="http://p1.bqimg.com/567571/e6c78d65641e3cbc.png" alt=""><br>Type the code of your plugin and it would be automatically installed. </p>
+<h2 id="Preface…"><a href="#Preface…" class="headerlink" title="Preface…"></a>Preface…</h2><p>I started learning machine learning during my second year in high school. This records my learning path of the technique. I started with gaining some basic understanding of machine learning. Here are some of the lecture notes I’ve kept during my study in Machine Learning in coursera. </p>
+<h2 id="Application-of-Machine-Learning"><a href="#Application-of-Machine-Learning" class="headerlink" title="Application of Machine Learning"></a>Application of Machine Learning</h2><h3 id="Database-Mining"><a href="#Database-Mining" class="headerlink" title="Database Mining"></a>Database Mining</h3><ul>
+<li>Better and more customilized services </li>
+<li>Medical Records </li>
+<li>Biology </li>
+<li>Engineering</li>
+</ul>
+<a id="more"></a>
+<h3 id="Applications-can’t-program-by-hand"><a href="#Applications-can’t-program-by-hand" class="headerlink" title="Applications can’t program by hand"></a>Applications can’t program by hand</h3><ul>
+<li>Autonomous helicopter</li>
+<li>Hsandwriting recognition</li>
+<li>NLP natural language processing / computer vision</li>
+</ul>
+<h3 id="Self-customizing-programs"><a href="#Self-customizing-programs" class="headerlink" title="Self-customizing programs"></a>Self-customizing programs</h3><ul>
+<li>Amazon</li>
+</ul>
+<h2 id="What-is-Machine-Learning"><a href="#What-is-Machine-Learning" class="headerlink" title="What is Machine Learning:"></a>What is Machine Learning:</h2><blockquote>
+<ol>
+<li>The field of study that gives computers the ability to learn without being explicitly programmed.<br><cite>Arthur Samuel</cite></li>
+<li>A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.<br><cite>Tom Mitchell </cite></li>
+</ol>
+</blockquote>
+<h2 id="Classifications-of-Machine-Learning"><a href="#Classifications-of-Machine-Learning" class="headerlink" title="Classifications of Machine Learning:"></a>Classifications of Machine Learning:</h2><ul>
+<li>Supervised Learning </li>
+<li>Unsupervised Learning</li>
+<li>Reinforcement Learning</li>
+</ul>
+<h3 id="Supervised-Learning"><a href="#Supervised-Learning" class="headerlink" title="Supervised Learning"></a>Supervised Learning</h3><p>In supervised learning, we are given a data set and already know what our correct output should look like. We already know that there is a relationship between the input and the output.</p>
+<h4 id="Two-examples-of-supervised-learning"><a href="#Two-examples-of-supervised-learning" class="headerlink" title="Two examples of supervised learning:"></a>Two examples of supervised learning:</h4><ul>
+<li><p>Regression:<br>Predict continuous valued output </p>
+</li>
+<li><p>Classification:<br>Discrete valued output(0 or 1)(or more)</p>
+</li>
+</ul>
+<p>Input data already have different labels.</p>
+<h3 id="Unsupervised-Learning"><a href="#Unsupervised-Learning" class="headerlink" title="Unsupervised Learning"></a>Unsupervised Learning</h3><p>Unsupervised learning allows us to approach problems with little or no idea what our results should look like. We can derive structures from data where we don’t necessarily know the effect of the variables.</p>
+<h4 id="Two-kinds-of-Unsupervised-Learning"><a href="#Two-kinds-of-Unsupervised-Learning" class="headerlink" title="Two kinds of Unsupervised Learning"></a>Two kinds of Unsupervised Learning</h4><ul>
+<li>Clustering<br>  Take a collection of 1,000,000 different genes, and find a way to automatically group these genes into groups that are somehow similar or related by different variables, such as lifespan, location, roles, and so on.</li>
+<li>Unclustering<br>  The “Cocktail Party Algorithm”, allows you to find structure in a chaotic environment. (i.e. identifying individual voices and music from a mesh of sounds at a cocktail party).</li>
+</ul>
+<p>Input data have no labels in unsupervised learning.</p>
+<h3 id="Reinforcement-Learning"><a href="#Reinforcement-Learning" class="headerlink" title="Reinforcement Learning"></a>Reinforcement Learning</h3><p>Reinforcement Learning</p>
+<h2 id="A-Project"><a href="#A-Project" class="headerlink" title="A Project"></a>A Project</h2><p>With the basic understanding in mind, I decided to start with a project to boost my learning.</p>
 
       
     </div>
@@ -355,7 +382,7 @@ Install">
       
         <div class="post-tags">
           
-            <a href="/tags/sublimetext/" rel="tag"># sublimetext</a>
+            <a href="/tags/machine-learning/" rel="tag"># machine learning</a>
           
         </div>
       
@@ -364,8 +391,8 @@ Install">
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/12/09/cardistry-form/" rel="next" title="Formalist Approach to Cardistry">
-                <i class="fa fa-chevron-left"></i> Formalist Approach to Cardistry
+              <a href="/2017/03/11/letaxinmarkdown/" rel="next" title="Using MathJax within Hexo">
+                <i class="fa fa-chevron-left"></i> Using MathJax within Hexo
               </a>
             
           </div>
@@ -374,8 +401,8 @@ Install">
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/03/11/letaxinmarkdown/" rel="prev" title="Using MathJax within Hexo">
-                Using MathJax within Hexo <i class="fa fa-chevron-right"></i>
+              <a href="/2017/09/08/Markdown-Tutorial/" rel="prev" title="Markdown Tutorial">
+                Markdown Tutorial <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -492,7 +519,7 @@ Install">
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Package-Control"><span class="nav-number">2.</span> <span class="nav-text">Install Package Control</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Plugins"><span class="nav-number">3.</span> <span class="nav-text">Install Plugins</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Preface…"><span class="nav-number">1.</span> <span class="nav-text">Preface…</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Application-of-Machine-Learning"><span class="nav-number">2.</span> <span class="nav-text">Application of Machine Learning</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Database-Mining"><span class="nav-number">2.1.</span> <span class="nav-text">Database Mining</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Applications-can’t-program-by-hand"><span class="nav-number">2.2.</span> <span class="nav-text">Applications can’t program by hand</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Self-customizing-programs"><span class="nav-number">2.3.</span> <span class="nav-text">Self-customizing programs</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#What-is-Machine-Learning"><span class="nav-number">3.</span> <span class="nav-text">What is Machine Learning:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Classifications-of-Machine-Learning"><span class="nav-number">4.</span> <span class="nav-text">Classifications of Machine Learning:</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Supervised-Learning"><span class="nav-number">4.1.</span> <span class="nav-text">Supervised Learning</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Two-examples-of-supervised-learning"><span class="nav-number">4.1.1.</span> <span class="nav-text">Two examples of supervised learning:</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Unsupervised-Learning"><span class="nav-number">4.2.</span> <span class="nav-text">Unsupervised Learning</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Two-kinds-of-Unsupervised-Learning"><span class="nav-number">4.2.1.</span> <span class="nav-text">Two kinds of Unsupervised Learning</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Reinforcement-Learning"><span class="nav-number">4.3.</span> <span class="nav-text">Reinforcement Learning</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#A-Project"><span class="nav-number">5.</span> <span class="nav-text">A Project</span></a></li></ol></div>
             
 
           </div>
