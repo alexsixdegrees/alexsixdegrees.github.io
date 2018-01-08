@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/</loc>
+    
+    <lastmod>2018-01-08T04:21:38.462Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://alexsixdegrees.github.io/2017/03/11/letaxinmarkdown/</loc>
     
-    <lastmod>2018-01-02T02:04:58.047Z</lastmod>
+    <lastmod>2018-01-08T04:12:03.680Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://alexsixdegrees.github.io/2017/09/08/Markdown-Tutorial/</loc>
+    
+    <lastmod>2018-01-08T04:11:53.730Z</lastmod>
     
   </url>
   
@@ -12,20 +26,6 @@
     <loc>https://alexsixdegrees.github.io/2016/10/05/hexo-github-blog/</loc>
     
     <lastmod>2018-01-02T01:53:06.703Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://alexsixdegrees.github.io/2017/09/08/Markdown-Tutorial/</loc>
-    
-    <lastmod>2017-12-27T01:40:13.813Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/</loc>
-    
-    <lastmod>2017-12-05T03:30:13.335Z</lastmod>
     
   </url>
   
