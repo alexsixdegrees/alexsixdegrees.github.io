@@ -21,7 +21,7 @@
 <meta property="og:url" content="https://alexsixdegrees.github.io/2017/03/11/letaxinmarkdown/index.html">
 <meta property="og:site_name" content="A Flow of Thoughts">
 <meta property="og:description" content="IntroductionA problem emerge during blogging: I need to display some math formulas to illustrate, but I cannot find a proper way to display them.As a result, I turned to a plugin called OmniMarkupPre">
-<meta property="og:updated_time" content="2018-01-08T04:12:03.680Z">
+<meta property="og:updated_time" content="2018-01-23T13:18:07.778Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Using MathJax within Hexo">
 <meta name="twitter:description" content="IntroductionA problem emerge during blogging: I need to display some math formulas to illustrate, but I cannot find a proper way to display them.As a result, I turned to a plugin called OmniMarkupPre">
@@ -155,7 +155,7 @@
 </ol>
 <p>Afterwards, Mathjax would be automatically installed. </p>
 <h2 id="Install-Mathjax-on-Hexo"><a href="#Install-Mathjax-on-Hexo" class="headerlink" title="Install Mathjax on Hexo"></a>Install Mathjax on Hexo</h2><p>Until now, we have only installed Mathjax locally, but we need to include it in our blog as well.<br>We can turn to a plugin called <a href="https://github.com/akfish/hexo-math" target="_blank" rel="external">hexo-math</a>.<br>This is a wonderful plugin that allows usage of Mathjax in Hexo. Unfortunately, the plugin is no longer sustained. However, for now we can still use it, since changing the default setting is troublesome. </p>
-<p>Open git shell and type to install:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-math --save</div><div class="line">$ hexo math install</div></pre></td></tr></table></figure></p>
+<p>Open the commandline and type to install:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-math --save</div><div class="line">$ hexo math install</div></pre></td></tr></table></figure></p>
 <p>However, there is some conflict between the Syntax of Markdown and Mathjax. Some of the characters may be escaped. Still, we need to change the default settings…</p>
 <h2 id="Changing-Default-Settings-1"><a href="#Changing-Default-Settings-1" class="headerlink" title="Changing Default Settings"></a>Changing Default Settings</h2><p>I found <a href="http://blog.csdn.net/emptyset110/article/details/50123231" target="_blank" rel="external">Platonic Time</a> had already contributed how to change the default settings.</p>
 <p>Here it goes:<br>Open the Hexo File.<br>Go to ./node_modules/marked/lib/<br>Using a text editor to open marked.js</p>

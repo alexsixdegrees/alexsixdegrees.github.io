@@ -29,7 +29,7 @@ However, here is a piece of the latter. It serves">
 <meta property="og:image" content="https://alexsixdegrees.github.io/2016/10/05/hexo-github-blog/setting.png">
 <meta property="og:image" content="https://alexsixdegrees.github.io/2016/10/05/hexo-github-blog/theme.png">
 <meta property="og:image" content="https://alexsixdegrees.github.io/2016/10/05/hexo-github-blog/clone.png">
-<meta property="og:updated_time" content="2018-01-21T06:26:02.264Z">
+<meta property="og:updated_time" content="2018-01-23T13:17:51.628Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Using Hexo & Github to Create Your Own Blog">
 <meta name="twitter:description" content="IntroductionPersonally, I use this blog as a way to keep track of my thoughts. More reflections would be found here rather than technical writings. 
@@ -190,7 +190,7 @@ However, here is a piece of the latter. It serves">
 <p>Go back to the cmd.<br>Type:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure></p>
 <p>You are able to see your own blog now on the <a href="https://localhost:4000/" target="_blank" rel="external">local host</a>.</p>
 <p>Enjoy the moment. </p>
-<h2 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h2><p>This is the tricky part.<br>Deployment allows to set up our local blog on the Github Page.<br>Open Git Shell:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo g <span class="_">-d</span></div></pre></td></tr></table></figure></p>
+<h2 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h2><p>This is the tricky part.<br>Deployment allows to set up our local blog on the Github Page.<br>Open the command line:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo g <span class="_">-d</span></div></pre></td></tr></table></figure></p>
 <p>If it works, you would find the code in your github page become the same as the public folder in your local hexo folder. </p>
 <p>Otherwise, try:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div><div class="line">$ npm install hexo-deployer-git --save </div><div class="line">$ hexo deploy</div></pre></td></tr></table></figure></p>
 <p>This should work, and you would find your github page the same as the local one. </p>

@@ -4,13 +4,34 @@
 
     
   <url>
-    <loc>https://alexsixdegrees.github.io/2018/01/23/hexo-github-blog-2-1/</loc>
-    <lastmod>2018-01-23T11:44:51.756Z</lastmod>
+    <loc>https://alexsixdegrees.github.io/2017/05/23/ow/</loc>
+    <lastmod>2018-01-23T13:20:42.257Z</lastmod>
     <data>
         <display>
-        <title>My Hexo Work Flow</title>
-        <pubTime>2018-01-23T11:44:51.000Z</pubTime>
+        <title>Machine Learning Learning Path</title>
+        <pubTime>2017-05-23T06:24:51.000Z</pubTime>
         
+        <tag>machine learning</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://alexsixdegrees.github.io/2017/03/11/letaxinmarkdown/</loc>
+    <lastmod>2018-01-23T13:18:07.778Z</lastmod>
+    <data>
+        <display>
+        <title>Using MathJax within Hexo</title>
+        <pubTime>2017-03-11T10:00:45.000Z</pubTime>
+        
+        <tag>markdown</tag>
+         
+        <tag>sublimetext</tag>
+         
          
            
         </display>
@@ -20,7 +41,7 @@
     
   <url>
     <loc>https://alexsixdegrees.github.io/2016/10/05/hexo-github-blog/</loc>
-    <lastmod>2018-01-21T06:26:02.264Z</lastmod>
+    <lastmod>2018-01-23T13:17:51.628Z</lastmod>
     <data>
         <display>
         <title>Using Hexo & Github to Create Your Own Blog</title>
@@ -32,6 +53,21 @@
          
         <tag>github</tag>
          
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://alexsixdegrees.github.io/2018/01/23/hexo-github-blog-2-1/</loc>
+    <lastmod>2018-01-23T11:44:51.756Z</lastmod>
+    <data>
+        <display>
+        <title>My Hexo Work Flow</title>
+        <pubTime>2018-01-23T11:44:51.000Z</pubTime>
+        
          
            
         </display>
@@ -67,42 +103,6 @@
         <pubTime>2017-02-15T01:06:55.000Z</pubTime>
         
         <tag>sublimetext</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://alexsixdegrees.github.io/2017/03/11/letaxinmarkdown/</loc>
-    <lastmod>2018-01-08T04:12:03.680Z</lastmod>
-    <data>
-        <display>
-        <title>Using MathJax within Hexo</title>
-        <pubTime>2017-03-11T10:00:45.000Z</pubTime>
-        
-        <tag>markdown</tag>
-         
-        <tag>sublimetext</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://alexsixdegrees.github.io/2017/05/23/ow/</loc>
-    <lastmod>2017-11-03T12:17:55.880Z</lastmod>
-    <data>
-        <display>
-        <title>Machine Learning Learning Path</title>
-        <pubTime>2017-05-23T06:24:51.000Z</pubTime>
-        
-        <tag>machine learning</tag>
          
          
            
