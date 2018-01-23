@@ -4,8 +4,63 @@
 
     
   <url>
+    <loc>https://alexsixdegrees.github.io/2018/01/23/hexo-github-blog-2-1/</loc>
+    <lastmod>2018-01-23T11:44:51.756Z</lastmod>
+    <data>
+        <display>
+        <title>My Hexo Work Flow</title>
+        <pubTime>2018-01-23T11:44:51.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://alexsixdegrees.github.io/2016/10/05/hexo-github-blog/</loc>
+    <lastmod>2018-01-21T06:26:02.264Z</lastmod>
+    <data>
+        <display>
+        <title>Using Hexo & Github to Create Your Own Blog</title>
+        <pubTime>2016-10-05T14:59:45.000Z</pubTime>
+        
+        <tag>blog</tag>
+         
+        <tag>hexo</tag>
+         
+        <tag>github</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://alexsixdegrees.github.io/2017/09/08/Markdown-Tutorial/</loc>
+    <lastmod>2018-01-10T05:46:07.275Z</lastmod>
+    <data>
+        <display>
+        <title>Markdown Tutorial</title>
+        <pubTime>2017-09-08T11:41:31.000Z</pubTime>
+        
+        <tag>markdown</tag>
+         
+        <tag>blog</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/</loc>
-    <lastmod>2018-01-08T04:21:38.462Z</lastmod>
+    <lastmod>2018-01-08T04:49:15.587Z</lastmod>
     <data>
         <display>
         <title>Install Package Control for Sublime Text 3</title>
@@ -31,46 +86,6 @@
         <tag>markdown</tag>
          
         <tag>sublimetext</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://alexsixdegrees.github.io/2017/09/08/Markdown-Tutorial/</loc>
-    <lastmod>2018-01-08T04:11:53.730Z</lastmod>
-    <data>
-        <display>
-        <title>Markdown Tutorial</title>
-        <pubTime>2017-09-08T11:41:30.000Z</pubTime>
-        
-        <tag>markdown</tag>
-         
-        <tag>blog</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://alexsixdegrees.github.io/2016/10/05/hexo-github-blog/</loc>
-    <lastmod>2018-01-02T01:53:06.703Z</lastmod>
-    <data>
-        <display>
-        <title>Using Hexo & Github to Create Your Own Blog</title>
-        <pubTime>2016-10-05T14:59:45.000Z</pubTime>
-        
-        <tag>blog</tag>
-         
-        <tag>hexo</tag>
-         
-        <tag>github</tag>
          
          
            
