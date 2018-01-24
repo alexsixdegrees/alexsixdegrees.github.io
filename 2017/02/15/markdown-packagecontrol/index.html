@@ -15,22 +15,22 @@
     <meta name="keywords" content="sublimetext," />
   
 
-  <meta name="description" content="IntroductionPackage Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and addtionally some useful plugins. 
-Install">
+  <meta name="description" content="IntroductionPackage Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and some useful plugins. 
+Install Package Con">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Install Package Control for Sublime Text 3">
 <meta property="og:url" content="https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/index.html">
 <meta property="og:site_name" content="A Flow of Thoughts">
-<meta property="og:description" content="IntroductionPackage Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and addtionally some useful plugins. 
-Install">
+<meta property="og:description" content="IntroductionPackage Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and some useful plugins. 
+Install Package Con">
 <meta property="og:image" content="https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/showc.png">
 <meta property="og:image" content="https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/pcontrol.png">
 <meta property="og:image" content="https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/install.png">
-<meta property="og:updated_time" content="2018-01-08T04:49:15.587Z">
+<meta property="og:updated_time" content="2018-01-24T12:15:51.990Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Install Package Control for Sublime Text 3">
-<meta name="twitter:description" content="IntroductionPackage Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and addtionally some useful plugins. 
-Install">
+<meta name="twitter:description" content="IntroductionPackage Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and some useful plugins. 
+Install Package Con">
 <meta name="twitter:image" content="https://alexsixdegrees.github.io/2017/02/15/markdown-packagecontrol/showc.png">
 
   
@@ -100,7 +100,7 @@ Install">
 
   <div id="toc" class="toc-article">
     <strong class="toc-title">Posts List</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Introduction"><span class="toc-text">Introduction</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Install-Package-Control"><span class="toc-text">Install Package Control</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Install-Plugins"><span class="toc-text">Install Plugins</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Introduction"><span class="toc-text">Introduction</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Install-Package-Control"><span class="toc-text">Install Package Control</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Install-Plugins"><span class="toc-text">Install Plugins</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Some-Useful-Plugins"><span class="toc-text">Some Useful Plugins</span></a></li></ol>
   </div>
 
 
@@ -144,7 +144,7 @@ Install">
   <div class="article-content">
     
       <hr>
-<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>Package Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and addtionally some useful plugins. </p>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>Package Control is a great tool to automatically install plugins for sublime text 3. I would love to share the way to install package control and some useful plugins. </p>
 <h2 id="Install-Package-Control"><a href="#Install-Package-Control" class="headerlink" title="Install Package Control"></a>Install Package Control</h2><p>Open Sublime Text Three.<br>Find View in the top menu and choose “show console”.<br><a id="more"></a><br><img src="/2017/02/15/markdown-packagecontrol/showc.png" alt="example pic" title="example pic"></p>
 <p>You would see the console at the bottom. </p>
 <p>Then copy the following code into the console.</p>
@@ -153,6 +153,17 @@ Install">
 <p>Sublime Text Two:</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> urllib2,os; pf=<span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path(); </div><div class="line">os.makedirs( ipp ) <span class="keyword">if</span> not os.path.exists(ipp) <span class="keyword">else</span> None;urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler( ))); </div><div class="line">open( os.path.join( ipp, pf), <span class="string">'wb'</span> ).write( urllib2.urlopen( <span class="string">'http://sublime.wbond.net/'</span> +pf.replace( <span class="string">' '</span>,<span class="string">'%20'</span> )).read()); print( <span class="string">'Please restart Sublime Text to finish installation'</span>)</div></pre></td></tr></table></figure>
 <h2 id="Install-Plugins"><a href="#Install-Plugins" class="headerlink" title="Install Plugins"></a>Install Plugins</h2><p>To install plugins, firstly open the package control from the “Preferences” menu.<br><img src="/2017/02/15/markdown-packagecontrol/pcontrol.png" alt="example pic" title="example pic"><br>Then type in “install”.<br>Wait a moment and you would find:<br><img src="/2017/02/15/markdown-packagecontrol/install.png" alt="example pic" title="example pic"><br>Type the code of your plugin and it would be automatically installed. </p>
+<h2 id="Some-Useful-Plugins"><a href="#Some-Useful-Plugins" class="headerlink" title="Some Useful Plugins"></a>Some Useful Plugins</h2><p>Here are some of the plugins I installed just to make sublime text more powerful.</p>
+<ul>
+<li><p>Emmet - the must have for web developers as it automatically fills in most of the html structure for you.</p>
+</li>
+<li><p>LaTexTools - a tool for sublimetext to preview your LaTex in pdf with just a click.</p>
+</li>
+<li><p>markdown preview - a tool for you to preview your markdown code, just press crtl+shift+p and enter markdown you can preview your markdown code in your own browser.</p>
+</li>
+</ul>
+<p>You can find all the tools by the package install function you just installed.</p>
+<p>That’s all.</p>
 
     
   </div>
